@@ -20,8 +20,8 @@
 
 <div class="app">
 <div class="settings">
-  <button>Settings</button>
-  <button>Settings</button>
+  <button id="toProfile">Profile</button>
+  <button id="darkMode">Dark Mode</button>
   <button>Settings</button>
   <button>Settings</button>
   <button>Settings</button>
@@ -31,20 +31,31 @@
     <div class="post-input">
       <img id='inputPhoto' src="nouser.jpg" alt="photo">
       <label for="postInput"></label>
-      <input id="postInput" type="text" value="What is on your mind?">
+      <input id="postInput" type="text" placeholder="What is on your mind?">
       <button id="postStatus">Post</button>
     </div>
 
+<div class="modal-window">
+  <div class="modal-content">
+  <p>Are you sure you want to delete this post?</p>
+    <div class="btn-container-modal">
+    <button id="closeDel">Close</button>
+    <button id="yesDel">Delete</button>
+    </div>
+    </div>
+</div>
 
-  <div class="post-box">
+
+  <div class="post-box template">
 
         <div class='post-pic'>
           <img id="profilePic" src="nouser.jpg" alt="photo">
           <p id="username">Username</p>
+          <button id="delPost">Delete</button>
         </div>
 
           <div class="post-text">
-            <p id="postText">post test</p>
+            <p id="postText">My first post!</p>
           </div>
 
   </div>
