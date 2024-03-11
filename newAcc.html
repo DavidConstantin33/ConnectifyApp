@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connectify New Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="head">
+    <img id="logoConnectify" src="LogoConnectify.png" alt="logo">
+    <div class="account">
+        <img id="usrPhoto" src="nouser.jpg" alt="acc">
+    </div>
+</div>
+
+<div class="new-acc-parent">
+    <div class="new-acc">
+        <form id="new-acc-form" autocomplete="on">
+            <label for="new-name">Name</label>
+            <input id="new-name" type="text" autocomplete="username">
+
+            <label for="new-username">Username</label>
+            <input id="new-username" type="text" autocomplete="username" required>
+
+            <label for="new-password">Password</label>
+            <input id="new-password" type="password" autocomplete="current-password" required>
+            <label for="newProfilePic">Profile Picture</label>
+            <input id="newProfilePic" type="file" accept="/*image">
+            <div class="new-acc-btn">
+                <button id="newAccBtn" type="button">Confirm</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

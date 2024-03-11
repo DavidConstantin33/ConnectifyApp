@@ -5,6 +5,12 @@ body {
     font-family: "Roboto Light", sans-serif;
 }
 
+a {
+    text-align: center;
+    color: black;
+    margin-top: 1em;
+}
+
 .head {
     top: 0;
     left: 0;
@@ -78,6 +84,46 @@ input {
 input:focus {
     outline: none;
     border-color: #000000;
+}
+
+.new-acc-parent {
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+#new-acc-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-acc {
+    width: 20rem;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 2);
+}
+
+#newAccBtn {
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 1em;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 10px rgba(5, 5, 5, 2);
+}
+
+#newAccBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+.new-acc-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .app {

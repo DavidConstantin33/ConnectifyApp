@@ -12,10 +12,10 @@ const acc2 = {
     password: 'motonel123',
 }
 
-const accs = {
+const accs = [
     acc1,
     acc2,
-}
+]
 
 const loginBtn = document.getElementById('loginBtn');
 const usernameInput = document.getElementById('username');
